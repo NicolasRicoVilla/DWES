@@ -1,0 +1,5 @@
+nico;3;sdasddsa@gma;img/diagrama.png
+nico;3;sdasddsa@gma;img/EjercicioA.png
+nico;5;sdasddsa@gma;img/Ejercicio2Prueba.png
+nico;5;sdasddsa@gma;img/Ejercicio2Prueba.png
+cccc;4;ca@gma;img/_21_rogue-one-wallpaper-hd_87-Rogue-One-A-Star-Wars-Story-HD-Wallpapers-Background-.jpg

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Inserción de Usuarios</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+
+    <div class="container">
+        <h2>Formulario de Inserción de Usuarios</h2>
+        <form action="formulario2.php" method="post" enctype="multipart/form-data">
+            <label for="nombre">Nombre:</label>
+            <input type="text" name="nombre" required>
+
+            <label for="edad">Edad:</label>
+            <input type="number" name="edad" required>
+
+            <label for="email">Correo Electrónico:</label>
+            <input type="email" name="email" required>
+
+            <label for="foto">Foto de Perfil:</label>
+            <input type="file" name="foto" accept="image/*" required>
+
+            <button type="submit">Insertar Usuario</button>
+        </form>
+
+        <form action="usuarios.php" method="get">
+            <button type="submit">Ver Usuarios Insertados</button>
+        </form>
+    </div>
+
+</body>
+</html>

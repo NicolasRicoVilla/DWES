@@ -1,0 +1,22 @@
+{
+    "name": "ejercicio1/tema9",
+    "description": "tema9",
+    "authors": [
+        {
+            "name": "NR"
+        }
+    ],
+    "require": {
+        "phpoffice/phpspreadsheet": "^1.29",
+        "dompdf/dompdf": "^2.0",
+        "phpunit/phpunit": "^10.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "ejercicio1\\tema9\\": "src/"
+        }
+    },
+    "require-dev": {
+        "phpunit/php-timer": "^6.0"
+    }
+}
